@@ -36,9 +36,11 @@
         </div>
         <button type="submit" class="btn btn-default">SEARCH</button>
       </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">LOGOUT</a></li>
-      </ul>
+     <form class="navbar-form navbar-left" role="logout" action="logout">
+			<ul class="nav navbar-nav navbar-right">
+				<li><button type="submit" class="btn btn-default">LOGOUT</button></li>
+			</ul>
+			</form>
     </div>
   </div>
 </nav>

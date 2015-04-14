@@ -42,13 +42,15 @@
 
 			<form class="navbar-form navbar-left" role="search" action="search1">
 				<div class="form-group">
-					<input name="location" type="text" class="form-control" placeholder="Search">
+					<input name="location" type="text" class="form-control" placeholder="Search" required>
 				</div>
 				<button type="submit" class="btn btn-default">SEARCH</button>
 			</form>
+			<form class="navbar-form navbar-left" role="logout" action="logout">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="LogoutClass">LOGOUT</a></li>
+				<li><button type="submit" class="btn btn-default">LOGOUT</button></li>
 			</ul>
+			</form>
 		</div>
 	</div>
 	</nav>

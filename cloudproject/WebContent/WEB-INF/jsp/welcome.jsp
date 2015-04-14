@@ -3,7 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
 <head>
-  <title>HOME PAGE JSP</title>
+  <title>HOME PAGE outside</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -26,9 +26,9 @@
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       
-      <form class="navbar-form navbar-left" role="search" action="search.jsp">
+      <form class="navbar-form navbar-left" role="search" action="search1">
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="Location">
+          <input name="location" type="text" class="form-control" placeholder="Location" required>
         </div>
         <button type="submit" class="btn btn-default">Search</span></button>
       </form>
@@ -36,10 +36,10 @@
      
       <form class="navbar-form navbar-left" role="search" action="login">
         <div class="form-group">
-          <input name="username" type="text" class="form-control" placeholder="email-id">
+          <input name="username" type="email" class="form-control" placeholder="email-id" required>
         </div>
         <div class="form-group">
-          <input name="password" type="text" class="form-control" placeholder="password">
+          <input name="password" type="password" class="form-control" placeholder="password" required>
         </div>
         <button type="submit" class="btn btn-default">login</button>
       </form>
@@ -73,14 +73,14 @@
     <div class="form-group">
       <label for="inputEmail" class="col-lg-2 control-label">FIRST NAME</label>
       <div class="col-lg-10">
-        <input name="firstname" type="text" class="form-control" id="inputEmail" placeholder="FIRST NAME">
+        <input name="firstname" type="text" class="form-control" id="inputEmail" placeholder="FIRST NAME" required>
       </div>
     </div>
 
      <div class="form-group">
       <label for="inputEmail" class="col-lg-2 control-label">LAST NAME</label>
       <div class="col-lg-10">
-        <input name="lastname" type="text" class="form-control" id="inputEmail" placeholder="LAST NAME">
+        <input name="lastname" type="text" class="form-control" id="inputEmail" placeholder="LAST NAME" required>
       </div>
     </div>
 
@@ -88,14 +88,14 @@
     <div class="form-group">
       <label for="inputEmail" class="col-lg-2 control-label">EMAIL</label>
       <div class="col-lg-10">
-        <input name="email" type="text" class="form-control" id="inputEmail" placeholder="EMAIL">
+        <input name="email" type="email" class="form-control" id="inputEmail" placeholder="EMAIL" required>
       </div>
     </div>
 
      <div class="form-group">
       <label for="inputEmail" class="col-lg-2 control-label">PASSWORD</label>
       <div class="col-lg-10">
-        <input name="password" type="text" class="form-control" id="inputEmail" placeholder="PASSWORD">
+        <input name="password" type="password" class="form-control" id="inputEmail" placeholder="PASSWORD" required>
       </div>
     </div>
 
